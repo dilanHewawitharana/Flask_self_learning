@@ -3,6 +3,13 @@
 
 {% block content %}
     <h1>Hello World</h1>
+
+    <img src="/img/boat.jpg" alt="text" />
+
+    <p class="special">Hello</p>
+
+    <script src="/js/hello.js"></script>
+
     <form method="POST" action="{{ url_for('index') }}">
         <input type="text" name="username" placeholder="Username"><br>
         <input type="password" name="password" placeholder="Password"><br>
